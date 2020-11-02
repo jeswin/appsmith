@@ -22,7 +22,6 @@ import pageDSLsReducer from "./pageDSLReducer";
 import confirmRunActionReducer from "./confirmRunActionReducer";
 import themeReducer from "./themeReducer";
 import datasourceNameReducer from "./datasourceNameReducer";
-import appLoadErrorReducer from "./appErrorsReducer";
 
 const uiReducer = combineReducers({
   widgetSidebar: widgetSidebarReducer,
@@ -48,6 +47,5 @@ const uiReducer = combineReducers({
   pageDSLs: pageDSLsReducer,
   theme: themeReducer,
   confirmRunAction: confirmRunActionReducer,
-  appLoadError: appLoadErrorReducer,
 });
 export default uiReducer;
